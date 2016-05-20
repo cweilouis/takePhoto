@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE03465B30EAF2160A0C25E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D141D87F77BD3AD47DFC7D7F /* libPods.a */; };
+		BF037A221CD1E6C5002C959F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF037A211CD1E6C5002C959F /* Foundation.framework */; };
+		BF037A2B1CD213C5002C959F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BF037A2A1CD213C5002C959F /* NSData+Base64.m */; };
+		BF037A2E1CD21E33002C959F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF037A2D1CD21E33002C959F /* NSString+Extension.m */; };
+		BF340CB61CD3448D00475B75 /* MessureTheBlurry.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF340CB41CD3448D00475B75 /* MessureTheBlurry.mm */; };
+		BF340CCC1CD34DD100475B75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF340CCB1CD34DD100475B75 /* CoreGraphics.framework */; };
+		BF340CCE1CD34DDC00475B75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF340CCD1CD34DDC00475B75 /* UIKit.framework */; };
+		BF8F88C81CD1A03000BE33F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F88C71CD1A03000BE33F2 /* main.m */; };
+		BF8F88CB1CD1A03000BE33F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F88CA1CD1A03000BE33F2 /* AppDelegate.m */; };
+		BF8F88CE1CD1A03000BE33F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F88CD1CD1A03000BE33F2 /* ViewController.m */; };
+		BF8F88D11CD1A03000BE33F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88CF1CD1A03000BE33F2 /* Main.storyboard */; };
+		BF8F88D31CD1A03000BE33F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88D21CD1A03000BE33F2 /* Assets.xcassets */; };
+		BF8F88D61CD1A03000BE33F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88D41CD1A03000BE33F2 /* LaunchScreen.storyboard */; };
+		BF8F88F21CD1A04F00BE33F2 /* icon_pic_break@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88DD1CD1A04F00BE33F2 /* icon_pic_break@2x.png */; };
+		BF8F88F31CD1A04F00BE33F2 /* paizhao.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88DE1CD1A04F00BE33F2 /* paizhao.png */; };
+		BF8F88F41CD1A04F00BE33F2 /* paizhao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88DF1CD1A04F00BE33F2 /* paizhao@2x.png */; };
+		BF8F88F51CD1A04F00BE33F2 /* shanguangdeng2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E01CD1A04F00BE33F2 /* shanguangdeng2.png */; };
+		BF8F88F61CD1A04F00BE33F2 /* shanguangdeng2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E11CD1A04F00BE33F2 /* shanguangdeng2@2x.png */; };
+		BF8F88F71CD1A04F00BE33F2 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E21CD1A04F00BE33F2 /* X.png */; };
+		BF8F88F81CD1A04F00BE33F2 /* X@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E31CD1A04F00BE33F2 /* X@2x.png */; };
+		BF8F88F91CD1A04F00BE33F2 /* xiang.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E41CD1A04F00BE33F2 /* xiang.png */; };
+		BF8F88FA1CD1A04F00BE33F2 /* xiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E51CD1A04F00BE33F2 /* xiang@2x.png */; };
+		BF8F88FB1CD1A04F00BE33F2 /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E61CD1A04F00BE33F2 /* lock@2x.png */; };
+		BF8F88FC1CD1A04F00BE33F2 /* broswerPic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E71CD1A04F00BE33F2 /* broswerPic0.jpg */; };
+		BF8F88FD1CD1A04F00BE33F2 /* broswerPic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E81CD1A04F00BE33F2 /* broswerPic1.jpg */; };
+		BF8F88FE1CD1A04F00BE33F2 /* broswerPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88E91CD1A04F00BE33F2 /* broswerPic2.jpg */; };
+		BF8F88FF1CD1A04F00BE33F2 /* broswerPic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88EA1CD1A04F00BE33F2 /* broswerPic3.jpg */; };
+		BF8F89001CD1A04F00BE33F2 /* broswerPic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88EB1CD1A04F00BE33F2 /* broswerPic4.jpg */; };
+		BF8F89011CD1A04F00BE33F2 /* btn_back_imagePicker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88EC1CD1A04F00BE33F2 /* btn_back_imagePicker@2x.png */; };
+		BF8F89021CD1A04F00BE33F2 /* checkbox_pic2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88ED1CD1A04F00BE33F2 /* checkbox_pic2@2x.png */; };
+		BF8F89031CD1A04F00BE33F2 /* checkbox_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88EE1CD1A04F00BE33F2 /* checkbox_pic@2x.png */; };
+		BF8F89041CD1A04F00BE33F2 /* checkbox_pic_non2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88EF1CD1A04F00BE33F2 /* checkbox_pic_non2@2x.png */; };
+		BF8F89051CD1A04F00BE33F2 /* checkbox_pic_non@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8F88F01CD1A04F00BE33F2 /* checkbox_pic_non@2x.png */; };
+		BF8F89111CD1A05D00BE33F2 /* LGCameraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89071CD1A05D00BE33F2 /* LGCameraImageView.m */; };
+		BF8F89121CD1A05D00BE33F2 /* ZLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89091CD1A05D00BE33F2 /* ZLCamera.m */; };
+		BF8F89131CD1A05D00BE33F2 /* ZLCameraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F890B1CD1A05D00BE33F2 /* ZLCameraImageView.m */; };
+		BF8F89141CD1A05D00BE33F2 /* ZLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F890D1CD1A05D00BE33F2 /* ZLCameraView.m */; };
+		BF8F89151CD1A05D00BE33F2 /* ZLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F890F1CD1A05D00BE33F2 /* ZLCameraViewController.m */; };
+		BF8F89181CD1A08E00BE33F2 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89171CD1A08E00BE33F2 /* UIView+Layout.m */; };
+		BF8F893D1CD1A13A00BE33F2 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F891C1CD1A13A00BE33F2 /* DACircularProgressView.m */; };
+		BF8F893E1CD1A13A00BE33F2 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F891F1CD1A13A00BE33F2 /* NSData+ImageContentType.m */; };
+		BF8F893F1CD1A13A00BE33F2 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89211CD1A13A00BE33F2 /* SDImageCache.m */; };
+		BF8F89401CD1A13A00BE33F2 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89231CD1A13A00BE33F2 /* SDWebImageCompat.m */; };
+		BF8F89411CD1A13A00BE33F2 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89251CD1A13A00BE33F2 /* SDWebImageDecoder.m */; };
+		BF8F89421CD1A13A00BE33F2 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89271CD1A13A00BE33F2 /* SDWebImageDownloader.m */; };
+		BF8F89431CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89291CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.m */; };
+		BF8F89441CD1A13A00BE33F2 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F892B1CD1A13A00BE33F2 /* SDWebImageManager.m */; };
+		BF8F89451CD1A13A00BE33F2 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F892E1CD1A13A00BE33F2 /* SDWebImagePrefetcher.m */; };
+		BF8F89461CD1A13A00BE33F2 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89301CD1A13A00BE33F2 /* UIButton+WebCache.m */; };
+		BF8F89471CD1A13A00BE33F2 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89321CD1A13A00BE33F2 /* UIImage+GIF.m */; };
+		BF8F89481CD1A13A00BE33F2 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89341CD1A13A00BE33F2 /* UIImage+MultiFormat.m */; };
+		BF8F89491CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89361CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.m */; };
+		BF8F894A1CD1A13A00BE33F2 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89381CD1A13A00BE33F2 /* UIImageView+WebCache.m */; };
+		BF8F894B1CD1A13A00BE33F2 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F893A1CD1A13A00BE33F2 /* UIView+WebCacheOperation.m */; };
+		BF8F89601CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F894D1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.m */; };
+		BF8F89611CD1A15400BE33F2 /* LGPhotoRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F894F1CD1A15400BE33F2 /* LGPhotoRect.m */; };
+		BF8F89621CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89521CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.m */; };
+		BF8F89631CD1A15400BE33F2 /* LGImagePickerSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89551CD1A15400BE33F2 /* LGImagePickerSelectView.m */; };
+		BF8F89641CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89571CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.m */; };
+		BF8F89651CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89591CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.m */; };
+		BF8F89661CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F895B1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.m */; };
+		BF8F89671CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F895D1CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.m */; };
+		BF8F89821CD1A17700BE33F2 /* LGPhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89691CD1A17700BE33F2 /* LGPhotoAssets.m */; };
+		BF8F89831CD1A17700BE33F2 /* LGPhotoPickerDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F896B1CD1A17700BE33F2 /* LGPhotoPickerDatas.m */; };
+		BF8F89841CD1A17700BE33F2 /* LGPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F896D1CD1A17700BE33F2 /* LGPhotoPickerGroup.m */; };
+		BF8F89851CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89701CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.m */; };
+		BF8F89861CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89721CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.m */; };
+		BF8F89871CD1A17700BE33F2 /* LGPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89741CD1A17700BE33F2 /* LGPhotoPickerViewController.m */; };
+		BF8F89881CD1A17700BE33F2 /* LGPhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89771CD1A17700BE33F2 /* LGPhotoPickerCollectionView.m */; };
+		BF8F89891CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F89791CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.m */; };
+		BF8F898A1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F897B1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.m */; };
+		BF8F898B1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F897D1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.m */; };
+		BF8F898C1CD1A17700BE33F2 /* LGPhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F897F1CD1A17700BE33F2 /* LGPhotoPickerImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		342EA8149772C3D67D8B4EE7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		598CDE37B9866C3BC4684E4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BF037A211CD1E6C5002C959F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF037A291CD213C5002C959F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		BF037A2A1CD213C5002C959F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		BF037A2C1CD21E33002C959F /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		BF037A2D1CD21E33002C959F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		BF340CB41CD3448D00475B75 /* MessureTheBlurry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MessureTheBlurry.mm; sourceTree = "<group>"; };
+		BF340CB51CD3448D00475B75 /* MessureTheBlurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessureTheBlurry.h; sourceTree = "<group>"; };
+		BF340CCB1CD34DD100475B75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF340CCD1CD34DDC00475B75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF8F88C31CD1A03000BE33F2 /* photoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8F88C71CD1A03000BE33F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8F88C91CD1A03000BE33F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8F88CA1CD1A03000BE33F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8F88CC1CD1A03000BE33F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF8F88CD1CD1A03000BE33F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF8F88D01CD1A03000BE33F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8F88D21CD1A03000BE33F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8F88D51CD1A03000BE33F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8F88D71CD1A03000BE33F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8F88DD1CD1A04F00BE33F2 /* icon_pic_break@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pic_break@2x.png"; sourceTree = "<group>"; };
+		BF8F88DE1CD1A04F00BE33F2 /* paizhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paizhao.png; sourceTree = "<group>"; };
+		BF8F88DF1CD1A04F00BE33F2 /* paizhao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paizhao@2x.png"; sourceTree = "<group>"; };
+		BF8F88E01CD1A04F00BE33F2 /* shanguangdeng2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shanguangdeng2.png; sourceTree = "<group>"; };
+		BF8F88E11CD1A04F00BE33F2 /* shanguangdeng2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanguangdeng2@2x.png"; sourceTree = "<group>"; };
+		BF8F88E21CD1A04F00BE33F2 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		BF8F88E31CD1A04F00BE33F2 /* X@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X@2x.png"; sourceTree = "<group>"; };
+		BF8F88E41CD1A04F00BE33F2 /* xiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiang.png; sourceTree = "<group>"; };
+		BF8F88E51CD1A04F00BE33F2 /* xiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiang@2x.png"; sourceTree = "<group>"; };
+		BF8F88E61CD1A04F00BE33F2 /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
+		BF8F88E71CD1A04F00BE33F2 /* broswerPic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic0.jpg; sourceTree = "<group>"; };
+		BF8F88E81CD1A04F00BE33F2 /* broswerPic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic1.jpg; sourceTree = "<group>"; };
+		BF8F88E91CD1A04F00BE33F2 /* broswerPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic2.jpg; sourceTree = "<group>"; };
+		BF8F88EA1CD1A04F00BE33F2 /* broswerPic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic3.jpg; sourceTree = "<group>"; };
+		BF8F88EB1CD1A04F00BE33F2 /* broswerPic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic4.jpg; sourceTree = "<group>"; };
+		BF8F88EC1CD1A04F00BE33F2 /* btn_back_imagePicker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_imagePicker@2x.png"; sourceTree = "<group>"; };
+		BF8F88ED1CD1A04F00BE33F2 /* checkbox_pic2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic2@2x.png"; sourceTree = "<group>"; };
+		BF8F88EE1CD1A04F00BE33F2 /* checkbox_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic@2x.png"; sourceTree = "<group>"; };
+		BF8F88EF1CD1A04F00BE33F2 /* checkbox_pic_non2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic_non2@2x.png"; sourceTree = "<group>"; };
+		BF8F88F01CD1A04F00BE33F2 /* checkbox_pic_non@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic_non@2x.png"; sourceTree = "<group>"; };
+		BF8F89061CD1A05D00BE33F2 /* LGCameraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCameraImageView.h; sourceTree = "<group>"; };
+		BF8F89071CD1A05D00BE33F2 /* LGCameraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCameraImageView.m; sourceTree = "<group>"; };
+		BF8F89081CD1A05D00BE33F2 /* ZLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCamera.h; sourceTree = "<group>"; };
+		BF8F89091CD1A05D00BE33F2 /* ZLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCamera.m; sourceTree = "<group>"; };
+		BF8F890A1CD1A05D00BE33F2 /* ZLCameraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraImageView.h; sourceTree = "<group>"; };
+		BF8F890B1CD1A05D00BE33F2 /* ZLCameraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraImageView.m; sourceTree = "<group>"; };
+		BF8F890C1CD1A05D00BE33F2 /* ZLCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraView.h; sourceTree = "<group>"; };
+		BF8F890D1CD1A05D00BE33F2 /* ZLCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraView.m; sourceTree = "<group>"; };
+		BF8F890E1CD1A05D00BE33F2 /* ZLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraViewController.h; sourceTree = "<group>"; };
+		BF8F890F1CD1A05D00BE33F2 /* ZLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraViewController.m; sourceTree = "<group>"; };
+		BF8F89161CD1A08E00BE33F2 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		BF8F89171CD1A08E00BE33F2 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		BF8F89191CD1A09500BE33F2 /* LGPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGPhoto.h; sourceTree = "<group>"; };
+		BF8F891A1CD1A09500BE33F2 /* LGPhotoPickerCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCommon.h; sourceTree = "<group>"; };
+		BF8F891B1CD1A13A00BE33F2 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		BF8F891C1CD1A13A00BE33F2 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		BF8F891E1CD1A13A00BE33F2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		BF8F891F1CD1A13A00BE33F2 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		BF8F89201CD1A13A00BE33F2 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		BF8F89211CD1A13A00BE33F2 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		BF8F89221CD1A13A00BE33F2 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		BF8F89231CD1A13A00BE33F2 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		BF8F89241CD1A13A00BE33F2 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		BF8F89251CD1A13A00BE33F2 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		BF8F89261CD1A13A00BE33F2 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		BF8F89271CD1A13A00BE33F2 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		BF8F89281CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		BF8F89291CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		BF8F892A1CD1A13A00BE33F2 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		BF8F892B1CD1A13A00BE33F2 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		BF8F892C1CD1A13A00BE33F2 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		BF8F892D1CD1A13A00BE33F2 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		BF8F892E1CD1A13A00BE33F2 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		BF8F892F1CD1A13A00BE33F2 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		BF8F89301CD1A13A00BE33F2 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		BF8F89311CD1A13A00BE33F2 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		BF8F89321CD1A13A00BE33F2 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		BF8F89331CD1A13A00BE33F2 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		BF8F89341CD1A13A00BE33F2 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		BF8F89351CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		BF8F89361CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		BF8F89371CD1A13A00BE33F2 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		BF8F89381CD1A13A00BE33F2 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		BF8F89391CD1A13A00BE33F2 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		BF8F893A1CD1A13A00BE33F2 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		BF8F894C1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhoto.h; sourceTree = "<group>"; };
+		BF8F894D1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhoto.m; sourceTree = "<group>"; };
+		BF8F894E1CD1A15400BE33F2 /* LGPhotoRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoRect.h; sourceTree = "<group>"; };
+		BF8F894F1CD1A15400BE33F2 /* LGPhotoRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoRect.m; sourceTree = "<group>"; };
+		BF8F89511CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserViewController.h; sourceTree = "<group>"; };
+		BF8F89521CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserViewController.m; sourceTree = "<group>"; };
+		BF8F89541CD1A15400BE33F2 /* LGImagePickerSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGImagePickerSelectView.h; sourceTree = "<group>"; };
+		BF8F89551CD1A15400BE33F2 /* LGImagePickerSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGImagePickerSelectView.m; sourceTree = "<group>"; };
+		BF8F89561CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoImageView.h; sourceTree = "<group>"; };
+		BF8F89571CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoImageView.m; sourceTree = "<group>"; };
+		BF8F89581CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoScrollView.h; sourceTree = "<group>"; };
+		BF8F89591CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoScrollView.m; sourceTree = "<group>"; };
+		BF8F895A1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoView.h; sourceTree = "<group>"; };
+		BF8F895B1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoView.m; sourceTree = "<group>"; };
+		BF8F895C1CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCustomToolBarView.h; sourceTree = "<group>"; };
+		BF8F895D1CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCustomToolBarView.m; sourceTree = "<group>"; };
+		BF8F89681CD1A17700BE33F2 /* LGPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoAssets.h; sourceTree = "<group>"; };
+		BF8F89691CD1A17700BE33F2 /* LGPhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoAssets.m; sourceTree = "<group>"; };
+		BF8F896A1CD1A17700BE33F2 /* LGPhotoPickerDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerDatas.h; sourceTree = "<group>"; };
+		BF8F896B1CD1A17700BE33F2 /* LGPhotoPickerDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerDatas.m; sourceTree = "<group>"; };
+		BF8F896C1CD1A17700BE33F2 /* LGPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroup.h; sourceTree = "<group>"; };
+		BF8F896D1CD1A17700BE33F2 /* LGPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroup.m; sourceTree = "<group>"; };
+		BF8F896F1CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerAssetsViewController.h; sourceTree = "<group>"; };
+		BF8F89701CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerAssetsViewController.m; sourceTree = "<group>"; };
+		BF8F89711CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		BF8F89721CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		BF8F89731CD1A17700BE33F2 /* LGPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerViewController.h; sourceTree = "<group>"; };
+		BF8F89741CD1A17700BE33F2 /* LGPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerViewController.m; sourceTree = "<group>"; };
+		BF8F89761CD1A17700BE33F2 /* LGPhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		BF8F89771CD1A17700BE33F2 /* LGPhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		BF8F89781CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		BF8F89791CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		BF8F897A1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		BF8F897B1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		BF8F897C1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroupTableViewCell.h; sourceTree = "<group>"; };
+		BF8F897D1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroupTableViewCell.m; sourceTree = "<group>"; };
+		BF8F897E1CD1A17700BE33F2 /* LGPhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerImageView.h; sourceTree = "<group>"; };
+		BF8F897F1CD1A17700BE33F2 /* LGPhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerImageView.m; sourceTree = "<group>"; };
+		D141D87F77BD3AD47DFC7D7F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8F88C01CD1A03000BE33F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF340CCE1CD34DDC00475B75 /* UIKit.framework in Frameworks */,
+				BF340CCC1CD34DD100475B75 /* CoreGraphics.framework in Frameworks */,
+				BF037A221CD1E6C5002C959F /* Foundation.framework in Frameworks */,
+				0AE03465B30EAF2160A0C25E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C416513803B91D19C90249B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF340CCD1CD34DDC00475B75 /* UIKit.framework */,
+				BF340CCB1CD34DD100475B75 /* CoreGraphics.framework */,
+				BF037A211CD1E6C5002C959F /* Foundation.framework */,
+				D141D87F77BD3AD47DFC7D7F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31EC5CFE4B1D7292132CD4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				342EA8149772C3D67D8B4EE7 /* Pods.debug.xcconfig */,
+				598CDE37B9866C3BC4684E4A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF8F88BA1CD1A03000BE33F2 = {
+			isa = PBXGroup;
+			children = (
+				BF8F88C51CD1A03000BE33F2 /* photoDemo */,
+				BF8F88C41CD1A03000BE33F2 /* Products */,
+				31EC5CFE4B1D7292132CD4E8 /* Pods */,
+				0C416513803B91D19C90249B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8F88C41CD1A03000BE33F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F88C31CD1A03000BE33F2 /* photoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8F88C51CD1A03000BE33F2 /* photoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89191CD1A09500BE33F2 /* LGPhoto.h */,
+				BF8F891A1CD1A09500BE33F2 /* LGPhotoPickerCommon.h */,
+				BF8F89161CD1A08E00BE33F2 /* UIView+Layout.h */,
+				BF8F89171CD1A08E00BE33F2 /* UIView+Layout.m */,
+				BF8F89101CD1A05D00BE33F2 /* ZLCamera */,
+				BF8F893C1CD1A13A00BE33F2 /* Third */,
+				BF8F895F1CD1A15400BE33F2 /* LGPhotoBrowser */,
+				BF8F89811CD1A17700BE33F2 /* LGPhotoPicker */,
+				BF8F88F11CD1A04F00BE33F2 /* Images */,
+				BF8F88C91CD1A03000BE33F2 /* AppDelegate.h */,
+				BF8F88CA1CD1A03000BE33F2 /* AppDelegate.m */,
+				BF8F88CC1CD1A03000BE33F2 /* ViewController.h */,
+				BF8F88CD1CD1A03000BE33F2 /* ViewController.m */,
+				BF340CB41CD3448D00475B75 /* MessureTheBlurry.mm */,
+				BF340CB51CD3448D00475B75 /* MessureTheBlurry.h */,
+				BF8F88CF1CD1A03000BE33F2 /* Main.storyboard */,
+				BF8F88D21CD1A03000BE33F2 /* Assets.xcassets */,
+				BF8F88D41CD1A03000BE33F2 /* LaunchScreen.storyboard */,
+				BF8F88D71CD1A03000BE33F2 /* Info.plist */,
+				BF8F88C61CD1A03000BE33F2 /* Supporting Files */,
+			);
+			path = photoDemo;
+			sourceTree = "<group>";
+		};
+		BF8F88C61CD1A03000BE33F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F88C71CD1A03000BE33F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF8F88F11CD1A04F00BE33F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F88DD1CD1A04F00BE33F2 /* icon_pic_break@2x.png */,
+				BF8F88DE1CD1A04F00BE33F2 /* paizhao.png */,
+				BF8F88DF1CD1A04F00BE33F2 /* paizhao@2x.png */,
+				BF8F88E01CD1A04F00BE33F2 /* shanguangdeng2.png */,
+				BF8F88E11CD1A04F00BE33F2 /* shanguangdeng2@2x.png */,
+				BF8F88E21CD1A04F00BE33F2 /* X.png */,
+				BF8F88E31CD1A04F00BE33F2 /* X@2x.png */,
+				BF8F88E41CD1A04F00BE33F2 /* xiang.png */,
+				BF8F88E51CD1A04F00BE33F2 /* xiang@2x.png */,
+				BF8F88E61CD1A04F00BE33F2 /* lock@2x.png */,
+				BF8F88E71CD1A04F00BE33F2 /* broswerPic0.jpg */,
+				BF8F88E81CD1A04F00BE33F2 /* broswerPic1.jpg */,
+				BF8F88E91CD1A04F00BE33F2 /* broswerPic2.jpg */,
+				BF8F88EA1CD1A04F00BE33F2 /* broswerPic3.jpg */,
+				BF8F88EB1CD1A04F00BE33F2 /* broswerPic4.jpg */,
+				BF8F88EC1CD1A04F00BE33F2 /* btn_back_imagePicker@2x.png */,
+				BF8F88ED1CD1A04F00BE33F2 /* checkbox_pic2@2x.png */,
+				BF8F88EE1CD1A04F00BE33F2 /* checkbox_pic@2x.png */,
+				BF8F88EF1CD1A04F00BE33F2 /* checkbox_pic_non2@2x.png */,
+				BF8F88F01CD1A04F00BE33F2 /* checkbox_pic_non@2x.png */,
+			);
+			name = Images;
+			path = "../../../Downloads/LGPhotoBrowser-master/LGPhotoBrowser/Images";
+			sourceTree = "<group>";
+		};
+		BF8F89101CD1A05D00BE33F2 /* ZLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89061CD1A05D00BE33F2 /* LGCameraImageView.h */,
+				BF8F89071CD1A05D00BE33F2 /* LGCameraImageView.m */,
+				BF8F89081CD1A05D00BE33F2 /* ZLCamera.h */,
+				BF8F89091CD1A05D00BE33F2 /* ZLCamera.m */,
+				BF8F890A1CD1A05D00BE33F2 /* ZLCameraImageView.h */,
+				BF8F890B1CD1A05D00BE33F2 /* ZLCameraImageView.m */,
+				BF8F890C1CD1A05D00BE33F2 /* ZLCameraView.h */,
+				BF8F890D1CD1A05D00BE33F2 /* ZLCameraView.m */,
+				BF8F890E1CD1A05D00BE33F2 /* ZLCameraViewController.h */,
+				BF8F890F1CD1A05D00BE33F2 /* ZLCameraViewController.m */,
+				BF037A291CD213C5002C959F /* NSData+Base64.h */,
+				BF037A2A1CD213C5002C959F /* NSData+Base64.m */,
+				BF037A2C1CD21E33002C959F /* NSString+Extension.h */,
+				BF037A2D1CD21E33002C959F /* NSString+Extension.m */,
+			);
+			name = ZLCamera;
+			path = "../../../Downloads/LGPhotoBrowser-master/LGPhotoBrowser/Classes/ZLCamera";
+			sourceTree = "<group>";
+		};
+		BF8F891D1CD1A13A00BE33F2 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F891B1CD1A13A00BE33F2 /* DACircularProgressView.h */,
+				BF8F891C1CD1A13A00BE33F2 /* DACircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		BF8F893B1CD1A13A00BE33F2 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F891E1CD1A13A00BE33F2 /* NSData+ImageContentType.h */,
+				BF8F891F1CD1A13A00BE33F2 /* NSData+ImageContentType.m */,
+				BF8F89201CD1A13A00BE33F2 /* SDImageCache.h */,
+				BF8F89211CD1A13A00BE33F2 /* SDImageCache.m */,
+				BF8F89221CD1A13A00BE33F2 /* SDWebImageCompat.h */,
+				BF8F89231CD1A13A00BE33F2 /* SDWebImageCompat.m */,
+				BF8F89241CD1A13A00BE33F2 /* SDWebImageDecoder.h */,
+				BF8F89251CD1A13A00BE33F2 /* SDWebImageDecoder.m */,
+				BF8F89261CD1A13A00BE33F2 /* SDWebImageDownloader.h */,
+				BF8F89271CD1A13A00BE33F2 /* SDWebImageDownloader.m */,
+				BF8F89281CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.h */,
+				BF8F89291CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.m */,
+				BF8F892A1CD1A13A00BE33F2 /* SDWebImageManager.h */,
+				BF8F892B1CD1A13A00BE33F2 /* SDWebImageManager.m */,
+				BF8F892C1CD1A13A00BE33F2 /* SDWebImageOperation.h */,
+				BF8F892D1CD1A13A00BE33F2 /* SDWebImagePrefetcher.h */,
+				BF8F892E1CD1A13A00BE33F2 /* SDWebImagePrefetcher.m */,
+				BF8F892F1CD1A13A00BE33F2 /* UIButton+WebCache.h */,
+				BF8F89301CD1A13A00BE33F2 /* UIButton+WebCache.m */,
+				BF8F89311CD1A13A00BE33F2 /* UIImage+GIF.h */,
+				BF8F89321CD1A13A00BE33F2 /* UIImage+GIF.m */,
+				BF8F89331CD1A13A00BE33F2 /* UIImage+MultiFormat.h */,
+				BF8F89341CD1A13A00BE33F2 /* UIImage+MultiFormat.m */,
+				BF8F89351CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.h */,
+				BF8F89361CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.m */,
+				BF8F89371CD1A13A00BE33F2 /* UIImageView+WebCache.h */,
+				BF8F89381CD1A13A00BE33F2 /* UIImageView+WebCache.m */,
+				BF8F89391CD1A13A00BE33F2 /* UIView+WebCacheOperation.h */,
+				BF8F893A1CD1A13A00BE33F2 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		BF8F893C1CD1A13A00BE33F2 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F891D1CD1A13A00BE33F2 /* DACircularProgress */,
+				BF8F893B1CD1A13A00BE33F2 /* SDWebImage */,
+			);
+			name = Third;
+			path = "../../../Downloads/LGPhotoBrowser-master/LGPhotoBrowser/Classes/Third";
+			sourceTree = "<group>";
+		};
+		BF8F89501CD1A15400BE33F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F894C1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.h */,
+				BF8F894D1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.m */,
+				BF8F894E1CD1A15400BE33F2 /* LGPhotoRect.h */,
+				BF8F894F1CD1A15400BE33F2 /* LGPhotoRect.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF8F89531CD1A15400BE33F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89511CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.h */,
+				BF8F89521CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF8F895E1CD1A15400BE33F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89541CD1A15400BE33F2 /* LGImagePickerSelectView.h */,
+				BF8F89551CD1A15400BE33F2 /* LGImagePickerSelectView.m */,
+				BF8F89561CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.h */,
+				BF8F89571CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.m */,
+				BF8F89581CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.h */,
+				BF8F89591CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.m */,
+				BF8F895A1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.h */,
+				BF8F895B1CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.m */,
+				BF8F895C1CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.h */,
+				BF8F895D1CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF8F895F1CD1A15400BE33F2 /* LGPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89501CD1A15400BE33F2 /* Models */,
+				BF8F89531CD1A15400BE33F2 /* ViewControllers */,
+				BF8F895E1CD1A15400BE33F2 /* Views */,
+			);
+			name = LGPhotoBrowser;
+			path = "../../../Downloads/LGPhotoBrowser-master/LGPhotoBrowser/Classes/LGPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		BF8F896E1CD1A17700BE33F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89681CD1A17700BE33F2 /* LGPhotoAssets.h */,
+				BF8F89691CD1A17700BE33F2 /* LGPhotoAssets.m */,
+				BF8F896A1CD1A17700BE33F2 /* LGPhotoPickerDatas.h */,
+				BF8F896B1CD1A17700BE33F2 /* LGPhotoPickerDatas.m */,
+				BF8F896C1CD1A17700BE33F2 /* LGPhotoPickerGroup.h */,
+				BF8F896D1CD1A17700BE33F2 /* LGPhotoPickerGroup.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF8F89751CD1A17700BE33F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F896F1CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.h */,
+				BF8F89701CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.m */,
+				BF8F89711CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.h */,
+				BF8F89721CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.m */,
+				BF8F89731CD1A17700BE33F2 /* LGPhotoPickerViewController.h */,
+				BF8F89741CD1A17700BE33F2 /* LGPhotoPickerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF8F89801CD1A17700BE33F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F89761CD1A17700BE33F2 /* LGPhotoPickerCollectionView.h */,
+				BF8F89771CD1A17700BE33F2 /* LGPhotoPickerCollectionView.m */,
+				BF8F89781CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.h */,
+				BF8F89791CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.m */,
+				BF8F897A1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.h */,
+				BF8F897B1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.m */,
+				BF8F897C1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.h */,
+				BF8F897D1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.m */,
+				BF8F897E1CD1A17700BE33F2 /* LGPhotoPickerImageView.h */,
+				BF8F897F1CD1A17700BE33F2 /* LGPhotoPickerImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF8F89811CD1A17700BE33F2 /* LGPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F896E1CD1A17700BE33F2 /* Models */,
+				BF8F89751CD1A17700BE33F2 /* ViewControllers */,
+				BF8F89801CD1A17700BE33F2 /* Views */,
+			);
+			name = LGPhotoPicker;
+			path = "../../../Downloads/LGPhotoBrowser-master/LGPhotoBrowser/Classes/LGPhotoPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8F88C21CD1A03000BE33F2 /* photoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8F88DA1CD1A03000BE33F2 /* Build configuration list for PBXNativeTarget "photoDemo" */;
+			buildPhases = (
+				00EF2555B20A2E30791B4FE5 /* Check Pods Manifest.lock */,
+				BF8F88BF1CD1A03000BE33F2 /* Sources */,
+				BF8F88C01CD1A03000BE33F2 /* Frameworks */,
+				BF8F88C11CD1A03000BE33F2 /* Resources */,
+				CEA87C90B1AE1C3CCC9645E4 /* Embed Pods Frameworks */,
+				9E96E8C9DC7B408C7016E238 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoDemo;
+			productName = photoDemo;
+			productReference = BF8F88C31CD1A03000BE33F2 /* photoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8F88BB1CD1A03000BE33F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = louis;
+				TargetAttributes = {
+					BF8F88C21CD1A03000BE33F2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 76DAU9EVXD;
+					};
+				};
+			};
+			buildConfigurationList = BF8F88BE1CD1A03000BE33F2 /* Build configuration list for PBXProject "photoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8F88BA1CD1A03000BE33F2;
+			productRefGroup = BF8F88C41CD1A03000BE33F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8F88C21CD1A03000BE33F2 /* photoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8F88C11CD1A03000BE33F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8F88FE1CD1A04F00BE33F2 /* broswerPic2.jpg in Resources */,
+				BF8F88FD1CD1A04F00BE33F2 /* broswerPic1.jpg in Resources */,
+				BF8F88F71CD1A04F00BE33F2 /* X.png in Resources */,
+				BF8F88FB1CD1A04F00BE33F2 /* lock@2x.png in Resources */,
+				BF8F88D61CD1A03000BE33F2 /* LaunchScreen.storyboard in Resources */,
+				BF8F88F41CD1A04F00BE33F2 /* paizhao@2x.png in Resources */,
+				BF8F89011CD1A04F00BE33F2 /* btn_back_imagePicker@2x.png in Resources */,
+				BF8F88F51CD1A04F00BE33F2 /* shanguangdeng2.png in Resources */,
+				BF8F88FA1CD1A04F00BE33F2 /* xiang@2x.png in Resources */,
+				BF8F89041CD1A04F00BE33F2 /* checkbox_pic_non2@2x.png in Resources */,
+				BF8F89021CD1A04F00BE33F2 /* checkbox_pic2@2x.png in Resources */,
+				BF8F88D31CD1A03000BE33F2 /* Assets.xcassets in Resources */,
+				BF8F88F91CD1A04F00BE33F2 /* xiang.png in Resources */,
+				BF8F88F31CD1A04F00BE33F2 /* paizhao.png in Resources */,
+				BF8F88F21CD1A04F00BE33F2 /* icon_pic_break@2x.png in Resources */,
+				BF8F89001CD1A04F00BE33F2 /* broswerPic4.jpg in Resources */,
+				BF8F89031CD1A04F00BE33F2 /* checkbox_pic@2x.png in Resources */,
+				BF8F88FC1CD1A04F00BE33F2 /* broswerPic0.jpg in Resources */,
+				BF8F88F81CD1A04F00BE33F2 /* X@2x.png in Resources */,
+				BF8F88F61CD1A04F00BE33F2 /* shanguangdeng2@2x.png in Resources */,
+				BF8F88FF1CD1A04F00BE33F2 /* broswerPic3.jpg in Resources */,
+				BF8F89051CD1A04F00BE33F2 /* checkbox_pic_non@2x.png in Resources */,
+				BF8F88D11CD1A03000BE33F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EF2555B20A2E30791B4FE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E96E8C9DC7B408C7016E238 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA87C90B1AE1C3CCC9645E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8F88BF1CD1A03000BE33F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8F89411CD1A13A00BE33F2 /* SDWebImageDecoder.m in Sources */,
+				BF8F89821CD1A17700BE33F2 /* LGPhotoAssets.m in Sources */,
+				BF8F89111CD1A05D00BE33F2 /* LGCameraImageView.m in Sources */,
+				BF8F89431CD1A13A00BE33F2 /* SDWebImageDownloaderOperation.m in Sources */,
+				BF8F89441CD1A13A00BE33F2 /* SDWebImageManager.m in Sources */,
+				BF8F894B1CD1A13A00BE33F2 /* UIView+WebCacheOperation.m in Sources */,
+				BF8F89641CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoImageView.m in Sources */,
+				BF8F89151CD1A05D00BE33F2 /* ZLCameraViewController.m in Sources */,
+				BF8F89861CD1A17700BE33F2 /* LGPhotoPickerGroupViewController.m in Sources */,
+				BF8F89131CD1A05D00BE33F2 /* ZLCameraImageView.m in Sources */,
+				BF8F89661CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoView.m in Sources */,
+				BF8F89621CD1A15400BE33F2 /* LGPhotoPickerBrowserViewController.m in Sources */,
+				BF8F89491CD1A13A00BE33F2 /* UIImageView+HighlightedWebCache.m in Sources */,
+				BF037A2E1CD21E33002C959F /* NSString+Extension.m in Sources */,
+				BF8F89421CD1A13A00BE33F2 /* SDWebImageDownloader.m in Sources */,
+				BF8F89841CD1A17700BE33F2 /* LGPhotoPickerGroup.m in Sources */,
+				BF8F88CE1CD1A03000BE33F2 /* ViewController.m in Sources */,
+				BF8F89401CD1A13A00BE33F2 /* SDWebImageCompat.m in Sources */,
+				BF037A2B1CD213C5002C959F /* NSData+Base64.m in Sources */,
+				BF8F898A1CD1A17700BE33F2 /* LGPhotoPickerFooterCollectionReusableView.m in Sources */,
+				BF8F89601CD1A15400BE33F2 /* LGPhotoPickerBrowserPhoto.m in Sources */,
+				BF8F89451CD1A13A00BE33F2 /* SDWebImagePrefetcher.m in Sources */,
+				BF8F89481CD1A13A00BE33F2 /* UIImage+MultiFormat.m in Sources */,
+				BF8F89121CD1A05D00BE33F2 /* ZLCamera.m in Sources */,
+				BF340CB61CD3448D00475B75 /* MessureTheBlurry.mm in Sources */,
+				BF8F893D1CD1A13A00BE33F2 /* DACircularProgressView.m in Sources */,
+				BF8F89461CD1A13A00BE33F2 /* UIButton+WebCache.m in Sources */,
+				BF8F89881CD1A17700BE33F2 /* LGPhotoPickerCollectionView.m in Sources */,
+				BF8F89181CD1A08E00BE33F2 /* UIView+Layout.m in Sources */,
+				BF8F89631CD1A15400BE33F2 /* LGImagePickerSelectView.m in Sources */,
+				BF8F898C1CD1A17700BE33F2 /* LGPhotoPickerImageView.m in Sources */,
+				BF8F89891CD1A17700BE33F2 /* LGPhotoPickerCollectionViewCell.m in Sources */,
+				BF8F893F1CD1A13A00BE33F2 /* SDImageCache.m in Sources */,
+				BF8F89611CD1A15400BE33F2 /* LGPhotoRect.m in Sources */,
+				BF8F88CB1CD1A03000BE33F2 /* AppDelegate.m in Sources */,
+				BF8F89141CD1A05D00BE33F2 /* ZLCameraView.m in Sources */,
+				BF8F88C81CD1A03000BE33F2 /* main.m in Sources */,
+				BF8F89471CD1A13A00BE33F2 /* UIImage+GIF.m in Sources */,
+				BF8F89831CD1A17700BE33F2 /* LGPhotoPickerDatas.m in Sources */,
+				BF8F894A1CD1A13A00BE33F2 /* UIImageView+WebCache.m in Sources */,
+				BF8F893E1CD1A13A00BE33F2 /* NSData+ImageContentType.m in Sources */,
+				BF8F89871CD1A17700BE33F2 /* LGPhotoPickerViewController.m in Sources */,
+				BF8F89671CD1A15400BE33F2 /* LGPhotoPickerCustomToolBarView.m in Sources */,
+				BF8F89651CD1A15400BE33F2 /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */,
+				BF8F89851CD1A17700BE33F2 /* LGPhotoPickerAssetsViewController.m in Sources */,
+				BF8F898B1CD1A17700BE33F2 /* LGPhotoPickerGroupTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF8F88CF1CD1A03000BE33F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8F88D01CD1A03000BE33F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8F88D41CD1A03000BE33F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8F88D51CD1A03000BE33F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8F88D81CD1A03000BE33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8F88D91CD1A03000BE33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8F88DB1CD1A03000BE33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342EA8149772C3D67D8B4EE7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = photoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiduan.louis.photoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BF8F88DC1CD1A03000BE33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598CDE37B9866C3BC4684E4A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = photoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiduan.louis.photoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8F88BE1CD1A03000BE33F2 /* Build configuration list for PBXProject "photoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8F88D81CD1A03000BE33F2 /* Debug */,
+				BF8F88D91CD1A03000BE33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8F88DA1CD1A03000BE33F2 /* Build configuration list for PBXNativeTarget "photoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8F88DB1CD1A03000BE33F2 /* Debug */,
+				BF8F88DC1CD1A03000BE33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8F88BB1CD1A03000BE33F2 /* Project object */;
+}
